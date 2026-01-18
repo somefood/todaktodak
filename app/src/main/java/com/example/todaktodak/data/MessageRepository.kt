@@ -42,4 +42,9 @@ object MessageRepository {
         val index = dayOfYear % messages.size
         return messages[index]
     }
+
+    fun getRandomMessage(excludeId: Int): ComfortMessage {
+        val filteredMessages = messages.filter { it.id != excludeId }
+        return filteredMessages.random()
+    }
 }
