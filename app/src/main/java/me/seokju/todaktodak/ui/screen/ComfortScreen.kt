@@ -1,4 +1,4 @@
-package com.example.todaktodak.ui.screen
+package me.seokju.todaktodak.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -28,7 +28,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.todaktodak.ui.viewmodel.ComfortViewModel
+import me.seokju.todaktodak.ui.viewmodel.ComfortViewModel
 
 @Composable
 fun ComfortScreen(

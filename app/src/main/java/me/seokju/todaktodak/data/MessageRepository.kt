@@ -1,4 +1,4 @@
-package com.example.todaktodak.data
+package me.seokju.todaktodak.data
 
 import java.time.LocalDate
 

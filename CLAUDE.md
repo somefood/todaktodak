@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **todaktodak**은 Kotlin과 Jetpack Compose를 사용하여 Material 3 디자인으로 구축된 Android 애플리케이션입니다.
 
-- **패키지명**: `com.example.todaktodak`
+- **패키지명**: `me.seokju.todaktodak`
 - **최소 SDK**: 26 (Android 8.0)
 - **타겟 SDK**: 36
 - **Java 버전**: 11
@@ -30,7 +30,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 특정 단위 테스트 실행:
 ```bash
-./gradlew test --tests com.example.todaktodak.클래스명.메서드명
+./gradlew test --tests me.seokju.todaktodak.클래스명.메서드명
 ```
 
 클린 후 재빌드:
@@ -51,9 +51,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Compose BOM 버전: 2024.09.00
 
 ### 프로젝트 구조
-- **메인 소스**: `app/src/main/java/com/example/todaktodak/`
-- **단위 테스트**: `app/src/test/java/com/example/todaktodak/`
-- **계측 테스트**: `app/src/androidTest/java/com/example/todaktodak/`
+- **메인 소스**: `app/src/main/java/me/seokju/todaktodak/`
+- **단위 테스트**: `app/src/test/java/me/seokju/todaktodak/`
+- **계측 테스트**: `app/src/androidTest/java/me/seokju/todaktodak/`
 
 ### 테마 시스템
 테마는 `ui/theme/` 패키지에 정의되어 있습니다:

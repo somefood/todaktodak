@@ -1,8 +1,8 @@
-package com.example.todaktodak.ui.viewmodel
+package me.seokju.todaktodak.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.example.todaktodak.data.ComfortMessage
-import com.example.todaktodak.data.MessageRepository
+import me.seokju.todaktodak.data.ComfortMessage
+import me.seokju.todaktodak.data.MessageRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

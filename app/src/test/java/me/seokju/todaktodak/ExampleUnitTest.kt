@@ -1,4 +1,4 @@
-package com.example.todaktodak
+package me.seokju.todaktodak
 
 import org.junit.Test
 

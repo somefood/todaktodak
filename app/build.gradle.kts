@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.todaktodak"
+    namespace = "me.seokju.todaktodak"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.todaktodak"
+        applicationId = "me.seokju.todaktodak"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

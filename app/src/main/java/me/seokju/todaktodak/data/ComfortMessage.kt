@@ -1,4 +1,4 @@
-package com.example.todaktodak.data
+package me.seokju.todaktodak.data
 
 data class ComfortMessage(
     val id: Int,

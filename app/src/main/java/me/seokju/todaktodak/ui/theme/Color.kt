@@ -1,4 +1,4 @@
-package com.example.todaktodak.ui.theme
+package me.seokju.todaktodak.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
